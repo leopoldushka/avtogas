@@ -15,7 +15,10 @@ class CreateGalleriesTable extends Migration
     {
         Schema::create('galleries', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            $table->integer('carmaker_id');
+            $table->integer('forme_id');
+            $table->string('link');
+            $table->char('comment');
         });
     }
 

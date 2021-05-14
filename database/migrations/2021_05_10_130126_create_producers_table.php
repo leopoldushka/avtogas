@@ -15,7 +15,7 @@ class CreateProducersTable extends Migration
     {
         Schema::create('producers', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            $table->string('name', 50);
         });
     }
 

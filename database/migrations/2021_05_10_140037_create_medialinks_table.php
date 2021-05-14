@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateOrgsTable extends Migration
+class CreateMedialinksTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,9 +13,9 @@ class CreateOrgsTable extends Migration
      */
     public function up()
     {
-        Schema::create('orgs', function (Blueprint $table) {
-            $table->increments('id');
-            $table->string('name');
+        Schema::create('medialinks', function (Blueprint $table) {
+            $table->id();
+            $table->string('string');
         });
     }
 
@@ -26,6 +26,6 @@ class CreateOrgsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('orgs');
+        Schema::dropIfExists('medialinks');
     }
 }

@@ -15,7 +15,7 @@ class CreateCarmakersTable extends Migration
     {
         Schema::create('carmakers', function (Blueprint $table) {
             $table->id();
-            $table->timestamps();
+            $table->string('name', 50);
         });
     }
 
