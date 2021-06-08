@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\MessageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -16,8 +17,16 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('start');
 });
-
-
+Route::get('/reg', function () {
+    return view('document.reg');
+});
+Route::get('/about', function () {
+    return view('document.about');
+});
+Route::get('/bids', function () {
+    return view('bids.bid');
+});
+Route::post('/message_create', [MessageController::class, 'create'])->name('message_create');
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();

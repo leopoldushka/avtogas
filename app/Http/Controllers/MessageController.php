@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Message;
 use Illuminate\Http\Request;
 
+
 class MessageController extends Controller
 {
     /**
@@ -22,9 +23,14 @@ class MessageController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
+    public function create(Request $request)
     {
-        //
+        $data=$request->all();
+        //dump($data);
+        $message = new Message();
+        $message->fill($data);
+        $message->save();
+        return redirect('/');
     }
 
     /**

@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <title>Smarty - Multipurpose + Admin</title>
+    <title>AVTOGAS</title>
     <meta name="description" content="" />
     <meta name="Author" content="Dorin Grigoras [www.stepofweb.com]" />
 
@@ -156,15 +156,15 @@
                         -->
                         <ul id="topMain" class="nav nav-pills nav-main">
                             <li class="dropdown"><!-- PAGES -->
-                                <a class="dropdown-toggle" href="#">
+                                <a class="dropdown-toggle" href="">
                                     Сведения о ГБО
                                 </a>
                                 <ul class="dropdown-menu">
                                     <li class="dropdown">
-                                        <a href="portfolio-single-project.html">a.	Преимущество использования ГБО</a>
+                                        <a href="/">a.	Преимущество использования ГБО</a>
                                     </li>
                                     <li class="dropdown">
-                                        <a href="portfolio-single-project.html">b.	Необходимость и правила оформления установки ГБО</a>
+                                        <a href="/reg">b.	Правила оформления установки ГБО</a>
                                     </li>
                                     <li class="dropdown">
                                         <a href="portfolio-single-project.html">c.	Список заправок ГБО (таблица наименование/адрес)</a>
@@ -182,7 +182,7 @@
                                 </a>
                             </li>
                             <li class="dropdown"><!-- PAGES -->
-                                <a class="dropdown-toggle" href="#">
+                                <a class="dropdown-toggle" href="/bids">
                                     Заказ услуги
                                 </a>
                             </li>
@@ -197,8 +197,8 @@
                                 </a>
                             </li>
                             <li class="dropdown"><!-- PAGES -->
-                                <a class="dropdown-toggle" href="#">
-                                    Контакты
+                                <a class="dropdown-toggle" href="/about">
+                                    О нас
                                 </a>
                             </li>
                         </ul>
@@ -234,21 +234,19 @@
                     <img class="footer-logo" src="assets/images/_smarty/logo-footer.png" alt="" />
 
                     <!-- Small Description -->
-                    <p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+                    <p>Кратко контакты</p>
 
                     <!-- Contact Address -->
                     <address>
                         <ul class="list-unstyled">
                             <li class="footer-sprite address">
-                                PO Box 21132<br>
-                                Here Weare St, Melbourne<br>
-                                Vivas 2355 Australia<br>
+                                местоположение
                             </li>
                             <li class="footer-sprite phone">
-                                Phone: 1-800-565-2390
+                                Телефон: 11111111
                             </li>
                             <li class="footer-sprite email">
-                                <a href="mailto:support@yourname.com">support@yourname.com</a>
+                                <a href="#">почта</a>
                             </li>
                         </ul>
                     </address>
@@ -259,7 +257,7 @@
                 <div class="col-md-3">
 
                     <!-- Latest Blog Post -->
-                    <h4 class="letter-spacing-1">LATEST NEWS</h4>
+                    <h4 class="letter-spacing-1">Последние события</h4>
                     <ul class="footer-posts list-unstyled">
                         <li>
                             <a href="#">Donec sed odio dui. Nulla vitae elit libero, a pharetra augue</a>
@@ -267,10 +265,6 @@
                         </li>
                         <li>
                             <a href="#">Nullam id dolor id nibh ultricies</a>
-                            <small>29 June 2017</small>
-                        </li>
-                        <li>
-                            <a href="#">Duis mollis, est non commodo luctus</a>
                             <small>29 June 2017</small>
                         </li>
                     </ul>
@@ -281,15 +275,10 @@
                 <div class="col-md-2">
 
                     <!-- Links -->
-                    <h4 class="letter-spacing-1">EXPLORE SMARTY</h4>
+                    <h4 class="letter-spacing-1">Основные ссылки</h4>
                     <ul class="footer-links list-unstyled">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About Us</a></li>
-                        <li><a href="#">Our Services</a></li>
-                        <li><a href="#">Our Clients</a></li>
-                        <li><a href="#">Our Pricing</a></li>
-                        <li><a href="#">Smarty Tour</a></li>
-                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Старт</a></li>
+                        <li><a href="#">О нас</a></li>
                     </ul>
                     <!-- /Links -->
 
@@ -298,18 +287,10 @@
                 <div class="col-md-4">
 
                     <!-- Newsletter Form -->
-                    <h4 class="letter-spacing-1">KEEP IN TOUCH</h4>
-                    <p>Subscribe to Our Newsletter to get Important News &amp; Offers</p>
+                    <h4 class="letter-spacing-1">Наши допсервисы</h4>
+                    <p>Описание</p>
 
-                    <form class="validate" action="php/newsletter.php" method="post" data-success="Subscribed! Thank you!" data-toastr-position="bottom-right">
-                        <div class="input-group">
-                            <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                            <input type="email" id="email" name="email" class="form-control required" placeholder="Enter your Email">
-                            <span class="input-group-btn">
-										<button class="btn btn-success" type="submit">Subscribe</button>
-									</span>
-                        </div>
-                    </form>
+
                     <!-- /Newsletter Form -->
 
                     <!-- Social Icons -->
