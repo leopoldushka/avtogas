@@ -172,7 +172,7 @@
                                 </ul>
                             </li>
                             <li class="dropdown"><!-- PAGES -->
-                                <a class="dropdown-toggle" href="#">
+                                <a class="dropdown-toggle" href="/product">
                                     Прайс
                                 </a>
                             </li>

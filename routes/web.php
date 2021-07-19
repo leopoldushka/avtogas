@@ -2,6 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\MessageController;
+use App\Http\Controllers\ProductController;
 
 /*
 |--------------------------------------------------------------------------
@@ -23,6 +24,7 @@ Route::get('/reg', function () {
 Route::get('/about', function () {
     return view('document.about');
 });
+Route::resource('/product', ProductController::class);
 Route::get('/bids', function () {
     return view('bids.bid');
 });

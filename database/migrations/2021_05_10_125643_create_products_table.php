@@ -18,9 +18,10 @@ class CreateProductsTable extends Migration
             $table->string('name');
             $table->integer('price');
             $table->string('link');
+            $table->integer('category_id');
             $table->integer('status_id');
             $table->integer('term_id');
-            $table->integer('produser_id');
+            $table->integer('producer_id');
             $table->integer('rank_id');
         });
     }
