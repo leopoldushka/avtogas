@@ -17,7 +17,7 @@ class ProductController extends Controller
     {
         $categories = Category::all();
         $products = Product::all();
-        return view('price.product')->with(['categories'=> $categories, 'products'=>$products ]);
+        return view('Price.product')->with(['categories'=> $categories, 'products'=>$products ]);
     }
 
     /**
