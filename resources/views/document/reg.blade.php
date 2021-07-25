@@ -5,7 +5,7 @@
 <section>
     <div class="container">
         <header class="text-center mb-40">
-            <h1 class="fw-300">Преимущество использования ГБО</h1>
+            <h1 class="fw-300">Правила оформления установки ГБО</h1>
         </header>
 
         <div class="row">
@@ -40,10 +40,6 @@
 
                     7. СНИЛС.
                 </p>
-
-
-
-                <a class="btn btn-default" href="#">Переход куда-то с предоставлением информации</a>
             </div>
 
             <div class="col-sm-6">

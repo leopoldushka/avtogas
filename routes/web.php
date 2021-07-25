@@ -24,6 +24,9 @@ Route::get('/reg', function () {
 Route::get('/about', function () {
     return view('document.about');
 });
+Route::get('/station', function () {
+    return view('document.gasstation');
+});
 Route::resource('/product', ProductController::class);
 Route::get('/bids', function () {
     return view('bids.bid');
