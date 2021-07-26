@@ -68,8 +68,8 @@
                                 <input required type="text" value="" class="form-control" name="name" id="contact:name">
                             </div>
                             <div class="col-md-4">
-                                <label for="contact:email">Контактный E-mail *</label>
-                                <input required type="email" value="" class="form-control" name="e-mail" id="contact:email">
+                                <label for="contact:email">Контактный E-mail</label>
+                                <input type="email" value="" class="form-control" name="e-mail" id="contact:email">
                             </div>
                             <div class="col-md-4">
                                 <label for="contact:phone">Телефон *</label>
@@ -119,17 +119,17 @@
                 <hr />
 
                 <p>
-                    <span class="block"><strong><i class="fa fa-map-marker"></i> Адрес:</strong> какая о улица</span>
-                    <span class="block"><strong><i class="fa fa-phone"></i> Телефон:</strong> <a href="tel:1800-555-1234">номер</a></span>
-                    <span class="block"><strong><i class="fa fa-envelope"></i> Email:</strong> <a href="mailto:mail@yourdomain.com">Почта</a></span>
+                    <span class="block"><strong><i class="fa fa-map-marker"></i> Адрес:</strong> Костюшко - Григоровича, 29ст2 </span>
+                    <span class="block"><strong><i class="fa fa-phone"></i> Телефон:</strong> <a href="tel:1800-555-1234">8-914-460-98-23, 8-914-461-51-19, 8-924-519-92-97</a></span>
+                    <span class="block"><strong><i class="fa fa-envelope"></i> Email:</strong> <a href="mailto:Avtogas75@mail.ru">Avtogas75@mail.ru</a></span>
                 </p>
 
                 <hr />
 
                 <h4 class="font300">Часы работы</h4>
                 <p>
-                    <span class="block"><strong>Понедельник - Пятница</strong> 8 утра 8 вечера</span>
-                    <span class="block"><strong>Суббота:</strong> 10 утра 2 дня</span>
+                    <span class="block"><strong>Понедельник - Пятница</strong>10:00-18:00 вечера</span>
+                    <span class="block"><strong>Суббота:</strong>10:00-14:00</span>
                     <span class="block"><strong>Воскресень:</strong> Выходной</span>
                 </p>
 

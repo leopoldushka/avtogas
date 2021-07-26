@@ -131,7 +131,7 @@
                                 </a>
                             </li>
                             <li class="dropdown"><!-- PAGES -->
-                                <a class="dropdown-toggle" href="#">
+                                <a class="dropdown-toggle disabled" href="#">
                                     Калькулятор
                                 </a>
                             </li>
@@ -141,12 +141,12 @@
                                 </a>
                             </li>
                             <li class="dropdown"><!-- PAGES -->
-                                <a class="dropdown-toggle" href="#">
+                                <a class="dropdown-toggle disabled" href="#">
                                     Фотогалерея
                                 </a>
                             </li>
                             <li class="dropdown"><!-- PAGES -->
-                                <a class="dropdown-toggle" href="#">
+                                <a class="dropdown-toggle disabled" href="#">
                                     Отзывы
                                 </a>
                             </li>
