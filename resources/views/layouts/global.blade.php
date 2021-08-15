@@ -29,7 +29,9 @@
     <!-- PAGE LEVEL SCRIPTS -->
     <link href="{{ asset('css/header-1.css') }}" rel="stylesheet">
     <link href="{{ asset('css/green.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/green.css') }}" rel="stylesheet">
 
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet">
 </head>
 
 <body class="smoothscroll enable-animation">
@@ -173,9 +175,9 @@
         <div class="copyright">
             <div class="container">
                 <ul class="float-right m-0 list-inline mobile-block">
-                    <li><a href="#">Наши партнёры</a></li>
+                    <li><a href="#">Адрес: Костюшко - Григоровича, 29ст2 </a></li>
                     <li>&bull;</li>
-                    <li><a href="#">Сертификаты</a></li>
+                    <li><a href="#">Телефон: 8-914-460-98-23, 8-914-461-51-19, 8-924-519-92-97</a></li>
                 </ul>
                 &copy; AVTOGAS
             </div>
