@@ -130,7 +130,7 @@
                 <p>
                     <span class="block"><strong>Понедельник - Пятница</strong>10:00-18:00 вечера</span>
                     <span class="block"><strong>Суббота:</strong>10:00-14:00</span>
-                    <span class="block"><strong>Воскресень:</strong> Выходной</span>
+                    <span class="block"><strong>Воскресенье:</strong> Выходной</span>
                 </p>
 
             </div>

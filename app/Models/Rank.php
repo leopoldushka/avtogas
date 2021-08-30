@@ -10,4 +10,4 @@ class Rank extends Model
     use HasFactory;
     public $timestamps = false;
 }
-}
+

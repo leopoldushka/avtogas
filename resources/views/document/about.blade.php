@@ -12,6 +12,17 @@
 
                 <h3>Расположение на карте города</h3>
                 <img class="img-fluid img-thumbnail" src="{{ asset('img/station.jpg') }}" alt="IMG_station" />
+                <div class="sertificat">
+                    <h3>Наши сертификаты</h3>
+                    <ul class="float-right m-0 list-inline mobile-block">
+                        <li><a href="{{ asset('img/sert1.jpg') }}">sert1</a></li>
+                        <li>&bull;</li>
+                        <li><a href="{{ asset('img/sert2.jpg') }}">sert2</a></li>
+                        <li>&bull;</li>
+                        <li><a href="{{ asset('img/sert3.jpg') }}">sert3</a></li>
+                    </ul>
+                </div>
+
 
 
             </div>
@@ -41,7 +52,7 @@
                 <p>
                     <span class="block"><strong>Понедельник - Пятница</strong>10:00-18:00 вечера</span>
                     <span class="block"><strong>Суббота:</strong>10:00-14:00</span>
-                    <span class="block"><strong>Воскресень:</strong> Выходной</span>
+                    <span class="block"><strong>Воскресенье:</strong> Выходной</span>
                 </p>
 
             </div>

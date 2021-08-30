@@ -87,8 +87,8 @@
 
 
                 <!-- Logo -->
-                <a class="logo float-left" href="index.html">
-                    <img src="assets/images/_smarty/logo_dark.png" alt="" />
+                <a class="logo float-left" href="/">
+                    <img src="{{ asset('img/logo.jpg') }}" alt="" />
                 </a>
 
                 <!--
