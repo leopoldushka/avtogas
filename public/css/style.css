@@ -12,3 +12,19 @@ section {
 .sertificat {
     margin-top: 30px;
 }
+
+.product {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+product-price {
+
+}
+
+.shop-item {
+    border-style: outset;
+    border-width: medium;
+    border-color: #0b2e13;
+    background-color: #1abc9c;
+}

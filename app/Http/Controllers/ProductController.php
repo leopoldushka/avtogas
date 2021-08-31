@@ -47,9 +47,11 @@ class ProductController extends Controller
      * @param  \App\Models\Product  $product
      * @return \Illuminate\Http\Response
      */
-    public function show(Product $product)
+    public function show($id)
     {
-        //
+        $categories = Category::all();
+        $product = Product::all()->find($id);
+        return view('Price.product_show')->with(['categories'=> $categories, 'product'=>$product ]);
     }
 
     /**
