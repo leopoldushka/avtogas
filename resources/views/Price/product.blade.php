@@ -41,7 +41,7 @@
                 @foreach($products as $product)
                     <!-- ITEM -->
                     <li class="col-lg-3">
-                            <div class="shop-item">
+                            <div class="shop-item product-item">
                                 <div class="thumbnail">
                                     <!-- product image(s) -->
                                     <a class="shop-item-image" href="{{ route('product.show', [$product->id]) }}">
