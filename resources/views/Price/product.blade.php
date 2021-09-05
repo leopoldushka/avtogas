@@ -2,13 +2,13 @@
 @section('content')
 
 <!-- Begin page content -->
-<section>
+<section class="price">
     <div class="container">
 
         <div class="row">
 
             <!-- RIGHT -->
-            <div class="col-lg-9 col-md-9 order-md-2 order-lg-2">
+            <div class="col-lg-9 col-md-9 order-md-2 order-lg-2 right">
 
 
 
@@ -85,11 +85,11 @@
 
 
             <!-- LEFT -->
-            <div class="col-lg-3 col-md-3 order-md-1 order-lg-1">
+            <div class="col-lg-3 col-md-3 order-md-1 order-lg-1 left">
 
                 <!-- CATEGORIES -->
-                <div class="side-nav mb-60">
 
+                <div class="side-nav mb-60">
                     <div class="side-nav-head">
                         <button class="fa fa-bars"></button>
                         <h4>Категории товара</h4>

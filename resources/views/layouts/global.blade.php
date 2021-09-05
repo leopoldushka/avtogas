@@ -112,7 +112,7 @@
                         -->
                         <ul id="topMain" class="nav nav-pills nav-main">
                             <li class="dropdown"><!-- PAGES -->
-                                <a class="dropdown-toggle" href="">
+                                <a class="dropdown-toggle header_a" href="">
                                     Сведения о ГБО
                                 </a>
                                 <ul class="dropdown-menu">

@@ -1,12 +1,20 @@
 #header {
-    background: linear-gradient(to top, black, 20%, cyan);
+    background: #b8c3cc;
+    font-weight: bold;
+    font-size: 20px;
 }
+
+.header_a {
+    font-weight: bold;
+
+}
+
 section {
-    background: linear-gradient(to bottom right, #c0c0ff, #6eeeee);
+    background-color: black;
 }
 
 #footer {
-    background: linear-gradient(to bottom, black, 20%, cyan);
+
 }
 
 .sertificat {
@@ -16,6 +24,20 @@ section {
 .product {
     font-size: 20px;
     margin: 0 0 10px 0;
+}
+
+.right {
+    padding: 15px 0;
+    margin: 15px 0;
+    background-color: white;
+}
+
+.left {
+    padding: 100px 0;
+}
+
+.price {
+    padding: 0;
 }
 
 product-price {
