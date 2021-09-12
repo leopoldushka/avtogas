@@ -22,8 +22,9 @@ section {
 }
 
 .product {
-    font-size: 20px;
+    font-size: 15px;
     margin: 0 0 10px 0;
+    color: #0E76A8;
 }
 
 .right {
@@ -48,5 +49,31 @@ product-price {
     border-style: outset;
     border-width: medium;
     border-color: #0b2e13;
-    background-color: #1abc9c;
+    background-color: #0b0b0b;
+
+}
+
+.footer_image {
+    margin: 10px auto;
+    padding: 10px;
+    width: 1170px;
+    max-width: 100%;
+}
+
+.list_image {
+    display: flex;
+}
+
+.footer_logo {
+    margin: 0 15px 0;
+    max-height: 50px;
+}
+
+.image_list_product {
+    max-height: 140px;
+}
+
+.product_text_list {
+    height: 80px;
+    color: #1abc9c;
 }

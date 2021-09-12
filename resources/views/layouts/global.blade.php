@@ -172,6 +172,41 @@
 @yield('content')
     <!-- FOOTER -->
     <footer id="footer">
+        <div class="footer_image">
+                        <ul class="list_image">
+                            <li class="footer_logo">
+                                <img class="img-fluid img-thumbnail footer_logo" src="{{ asset('img/vialle.jpg') }}" alt="IMG_GBO" />
+                            </li>
+                            <li class="footer_logo">
+                                <img class="img-fluid img-thumbnail footer_logo" src="{{ asset('img/digitronic.jpg') }}" alt="IMG_GBO" />
+                            </li>
+                            <li class="footer_logo">
+                                <img class="img-fluid img-thumbnail footer_logo" src="{{ asset('img/atiker.jpg') }}" alt="IMG_GBO" />
+                            </li>
+                            <li class="footer_logo">
+                                <img class="img-fluid img-thumbnail footer_logo" src="{{ asset('img/alaska.jpg') }}" alt="IMG_GBO" />
+                            </li>
+                            <li class="footer_logo">
+                                <img class="img-fluid img-thumbnail footer_logo" src="{{ asset('img/omwl.png') }}" alt="IMG_GBO" />
+                            </li>
+                            <li class="footer_logo">
+                                <img class="img-fluid img-thumbnail footer_logo" src="{{ asset('img/EuropeGas.png') }}" alt="IMG_GBO" />
+                            </li>
+                            <li class="footer_logo">
+                                <img class="img-fluid img-thumbnail footer_logo" src="{{ asset('img/achille.jpg') }}" alt="IMG_GBO" />
+                            </li>
+                            <li class="footer_logo">
+                                <img class="img-fluid img-thumbnail footer_logo" src="{{ asset('img/stag.jpg') }}" alt="IMG_GBO" />
+                            </li>
+                            <li class="footer_logo">
+                                <img class="img-fluid img-thumbnail footer_logo" src="{{ asset('img/Lovato.png') }}" alt="IMG_GBO" />
+                            </li>
+                            <li class="footer_logo">
+                                <img class="img-fluid img-thumbnail footer_logo" src="{{ asset('img/yota.jpg') }}" alt="IMG_GBO" />
+                            </li>
+                        </ul>
+        </div>
+
         <div class="copyright">
             <div class="container">
                 <ul class="float-right m-0 list-inline mobile-block">

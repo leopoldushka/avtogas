@@ -65,7 +65,7 @@
                         <hr />
 
                         <div class="clearfix mb-30">
-                            <span class="float-right text-success"><i class="fa fa-check"></i> Статус наличия</span>
+                            <span class="float-right text-success"><i class="fa fa-check"></i> {{$product->price}}</span>
                             <!--
                             <span class="float-right text-danger"><i class="fa fa-remove"></i> Out of Stock</span>
                             -->

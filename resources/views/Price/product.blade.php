@@ -45,7 +45,7 @@
                                 <div class="thumbnail">
                                     <!-- product image(s) -->
                                     <a class="shop-item-image" href="{{ route('product.show', [$product->id]) }}">
-                                        <img class="img-fluid" src="{{ asset('') }}storage/{{$product->link}}" alt="shop hover image" />
+                                        <img class="img-fluid image_list_product" src="{{ asset('') }}storage/{{$product->link}}" alt="shop hover image" />
                                     </a>
                                     <!-- /product image(s) -->
 
@@ -53,7 +53,7 @@
                                                                    <!-- /hover buttons -->
                                 </div>
 
-                                <div class="shop-item-summary text-center">
+                                <div class="shop-item-summary text-center product_text_list">
                                     <h2 class="product">{{ $product->name }}</h2>
 
                                     <!-- rating -->
