@@ -87,4 +87,9 @@ class ProductController extends Controller
     {
         //
     }
+
+    public function calc_input()
+    {
+        return view('price.calc');
+    }
 }

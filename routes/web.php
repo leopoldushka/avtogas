@@ -31,6 +31,7 @@ Route::resource('/product', ProductController::class);
 Route::get('/bids', function () {
     return view('bids.bid');
 });
+Route::get('/calc', [ProductController::class, 'calc_input']);
 Route::post('/message_create', [MessageController::class, 'create'])->name('message_create');
 
 Route::group(['prefix' => 'admin'], function () {

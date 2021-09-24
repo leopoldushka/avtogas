@@ -133,7 +133,7 @@
                                 </a>
                             </li>
                             <li class="dropdown"><!-- PAGES -->
-                                <a class="dropdown-toggle disabled" href="#">
+                                <a class="dropdown-toggle disabled" href="/calc">
                                     Калькулятор
                                 </a>
                             </li>
